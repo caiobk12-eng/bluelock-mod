@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "bluelockmod",
+  "version": "${version}",
+  "name": "Blue Lock Mod",
+  "description": "Mod de fã inspirado em Blue Lock: bola chutável, chuteira veloz e Metavisão.",
+  "authors": ["Você"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.bluelockmod.BlueLockMod"],
+    "client": ["com.bluelockmod.client.BlueLockModClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
